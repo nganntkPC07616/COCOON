@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+:root {
+  /* fonts */
+  --font-sans-serif-collection: "Sans Serif Collection";
+  --font-inter: Inter;
+  --font-inconsolata: Inconsolata;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-29xl: 48px;
+  --font-size-21xl: 40px;
+  --font-size-17xl: 36px;
+  --font-size-33xl: 52px;
+  --font-size-3xl: 22px;
+  --font-size-25xl: 44px;
+  --font-size-5xl: 24px;
+  --font-size-26xl: 45px;
+
+  /* Colors */
+  --color-whitesmoke-100: #f9f6f6;
+  --color-whitesmoke-200: #f5f5f5;
+  --color-white: #fff;
+  --color-gray-100: #342019;
+  --color-gray-200: #120000;
+  --color-gray-300: #110000;
+  --color-gray-400: #0e0000;
+  --color-gray-500: #0c0000;
+  --color-gray-600: rgba(0, 0, 0, 0.51);
+  --color-black: #000;
+  --color-mediumorchid: rgba(233, 78, 236, 0.17);
+  --color-red-100: #f22323;
+  --color-red-200: #ff0000;
+  --color-paleturquoise: #aee4db;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-11xl: 30px;
+}
